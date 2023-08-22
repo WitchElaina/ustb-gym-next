@@ -10,7 +10,7 @@ app.get('/api', (req, res) => {
 
 app.get('/api/item/:slug', (req, res) => {
   const { slug } = req.params;
-  res.end(`Item: ${slug}`);
+  res.end(`Slug: ${slug}`);
 });
 
 module.exports = app;
